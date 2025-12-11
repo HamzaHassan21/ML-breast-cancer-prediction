@@ -28,51 +28,25 @@ Below are the real performance results achieved by the models, extracted from th
 
 Logistic Regression (Best Model):
 
-Accuracy: 0.89
-
-Recall: 0.98
-
-F1-score: 0.94
-
-AUC-ROC: 0.66
+Accuracy: 0.89  Recall: 0.98  F1-score: 0.94  AUC-ROC: 0.66
 
 Naïve Bayes:
 
-Accuracy: 0.86
-
-Recall: 0.94
-
-F1-score: 0.92
-
-AUC-ROC: 0.67
+Accuracy: 0.86  Recall: 0.94  F1-score: 0.92  AUC-ROC: 0.67
 
 KNN (k=12):
 
-Accuracy: 0.88
-
-Recall: 0.97
-
-F1-score: 0.93
-
-AUC-ROC: 0.67
+Accuracy: 0.88  Recall: 0.97  F1-score: 0.93  AUC-ROC: 0.67
 
 🔹 Regression (Progression-Free Months)
 
 Decision Tree DT-1 (Fully Grown):
 
-MAE: 16.74
-
-MSE: 415.31
-
-R²: 0.25
+MAE: 16.74  MSE: 415.31  R²: 0.25
 
 Decision Tree DT-2 (Pruned to Depth 4):
 
-MAE: 16.98
-
-MSE: 424.68
-
-R²: 0.24
+MAE: 16.98  MSE: 424.68  R²: 0.24
 
 These results demonstrate strong predictive ability for classification and reasonable interpretability and stability for regression.
 
