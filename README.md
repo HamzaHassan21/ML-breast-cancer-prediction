@@ -52,8 +52,11 @@ These results demonstrate strong predictive ability for classification and reaso
 
 ## Repository Structure
 ├── colab_notebooks/     # All ML notebooks (cleaning, modelling, evaluation)
+
 ├── Data/                # Dataset used for modelling
+
 ├── report/              # Full machine learning coursework report
+
 └── README.md
 
 **Notebooks Overview**
