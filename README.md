@@ -26,19 +26,19 @@ Below are the real performance results achieved by the models, extracted from th
 
 + Classification (Survival Status)
 
-Logistic Regression (Best Model):
++ Logistic Regression (Best Model):
 
 Accuracy: 0.89  Recall: 0.98  F1-score: 0.94  AUC-ROC: 0.66
 
-Naïve Bayes:
++ Naïve Bayes:
 
 Accuracy: 0.86  Recall: 0.94  F1-score: 0.92  AUC-ROC: 0.67
 
-KNN (k=12):
++ KNN (k=12):
 
 Accuracy: 0.88  Recall: 0.97  F1-score: 0.93  AUC-ROC: 0.67
 
-🔹 Regression (Progression-Free Months)
++ Regression (Progression-Free Months)
 
 Decision Tree DT-1 (Fully Grown):
 
@@ -50,14 +50,16 @@ MAE: 16.98  MSE: 424.68  R²: 0.24
 
 These results demonstrate strong predictive ability for classification and reasonable interpretability and stability for regression.
 
-## 📘 Repository Structure
+
+## Repository Structure
 ├── colab_notebooks/     # All ML notebooks (cleaning, modelling, evaluation)
 ├── Data/                # Dataset used for modelling
 ├── report/              # Full machine learning coursework report
 └── README.md
 
-**📓 Notebooks Overview**
-## 📁 Notebook 1 — Data Cleaning & EDA
+**Notebooks Overview**
+
+## Notebook 1 — Data Cleaning & EDA
 
 Dropped irrelevant columns (Patient ID, Profession)
 
@@ -67,7 +69,7 @@ Imputed missing values and handled outliers
 
 Explored class imbalance and visualised key trends
 
-## 📁 Notebook 2 — Classification & Regression Models
+## Notebook 2 — Classification & Regression Models
 
 Split and stratified data for fair evaluation
 
@@ -79,7 +81,7 @@ Applied GridSearchCV for improved performance
 
 Built regression models to predict survival months
 
-## 📁 Notebook 3 — Ensemble Learning & Final Insights
+## Notebook 3 — Ensemble Learning & Final Insights
 
 Combined models using soft-voting ensemble
 
@@ -89,21 +91,21 @@ Identified which features influence predictions most
 
 Summarised clinical and ethical considerations
 
-## 🌍 Real-World Impact
+## Real-World Impact
 
 Machine learning offers powerful advantages in breast cancer care:
 
-🔍 Early identification of high-risk patients
+  Early identification of high-risk patients
 
-🧑‍⚕️ Better treatment planning through prediction insights
+  Better treatment planning through prediction insights
 
-📊 Support for oncologists with objective, data-driven evidence
+  Support for oncologists with objective, data-driven evidence
 
-❤️ Helping move toward precision medicine
+  Helping move toward precision medicine
 
 This project demonstrates how ML models — when used responsibly — can assist healthcare professionals rather than replace them.
 
-## 📫 Connect With Me
+## Connect With Me
 
 I share my cloud, ML, and DevOps journey across platforms. Feel free to connect!
 
