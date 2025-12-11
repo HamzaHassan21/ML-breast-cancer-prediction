@@ -8,8 +8,8 @@ This project applies machine learning to predict two critical outcomes for breas
 
 By analysing real clinical features and applying ML techniques, this project demonstrates how data-driven models can support more accurate healthcare decisions.
 
-+ Project Highlights
-+ Objective
+**Project Highlights**
+ ## Objective
 
 Build predictive models that use clinical attributes (e.g., stage, tumour characteristics, hormone status) to forecast patient outcomes.
 
@@ -23,8 +23,7 @@ Logistic Regression · KNN · Naïve Bayes · Decision Trees · SMOTE
 Below are the real performance results achieved by the models, extracted from the analysis report:
 (Logistic Regression was the best-performing classifier overall.)
 
-
-+ Classification (Survival Status)
+ ## Classification (Survival Status)
 
 + Logistic Regression (Best Model):
 
