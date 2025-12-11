@@ -1,54 +1,137 @@
-# Breast Cancer Outcome Prediction Using Machine Learning
+## 🩺 Breast Cancer Outcome Prediction Using Machine Learning
 
-This project applies machine learning to predict two key outcomes for breast cancer patients:
+This project applies machine learning to predict two critical outcomes for breast cancer patients:
 
-- **Survival Status** — Will the patient survive? (Classification)
-- **Progression-Free Months** — How long until the disease progresses? (Regression)
+🧬 Survival Status — Will the patient survive? (Classification)
 
-By combining medical data with predictive models, this project aims to assist in more accurate, data-driven clinical decisions that could improve patient care and outcomes.
+⏳ Progression-Free Months — How long until the disease progresses? (Regression)
 
----
+By analysing real clinical features and applying ML techniques, this project demonstrates how data-driven models can support more accurate healthcare decisions.
 
-## Project Highlights
+🚀 Project Highlights
+🎯 Objective
 
- **Goal**: Predict patient outcomes using clinical features such as stage, treatment history, and lymph node involvement.
+Build predictive models that use clinical attributes (e.g., stage, tumour characteristics, hormone status) to forecast patient outcomes.
 
-**Tech Stack**:  
-Python · Pandas · Scikit-learn · Matplotlib · Seaborn · SMOTE · Random Forest · Logistic Regression
+## 🛠️ Tech Stack
 
- **Key Results**:
-- Achieved strong classification accuracy and recall for mortality prediction
-- Identified top clinical features driving outcomes (e.g., cancer stage, lymph nodes, treatment type)
-- Demonstrated model interpretability and practical healthcare relevance
+Python · Pandas · NumPy · Scikit-learn · Matplotlib · Seaborn
+Logistic Regression · KNN · Naïve Bayes · Decision Trees · SMOTE
 
----
+## ⭐ Key Achievements
 
-## Notebooks Overview
+Below are the real performance results achieved by the models, extracted from the analysis report:
+(📌 Logistic Regression was the best-performing classifier overall.)
 
- **Notebook 1: Data Cleaning & EDA**  
-- Removed irrelevant columns (e.g., Patient ID, Profession)  
-- Handled missing data and encoded categorical variables  
-- Explored survival patterns through visualizations and correlations
 
- **Notebook 2: Model Training & Evaluation**  
-- Balanced imbalanced data using oversampling (SMOTE)  
-- Trained classification and regression models  
-- Evaluated performance using metrics like F1-score and RMSE
+🔹 Classification (Survival Status)
 
- **Notebook 3: Model Optimization & Final Insights**  
-- Applied hyperparameter tuning (GridSearch, RandomizedSearch)  
-- Interpreted feature importance using Random Forest  
-- Summarized clinical insights and model impact
+Logistic Regression (Best Model):
 
----
+Accuracy: 0.89
 
-##  Real-World Impact
+Recall: 0.98
 
-This project highlights how machine learning can:
-- Enhance early detection of high-risk patients
-- Personalize treatment strategies
-- Support oncologists with objective, data-driven tools
+F1-score: 0.94
 
-It’s a small but meaningful step toward precision medicine.
+AUC-ROC: 0.66
 
----
+Naïve Bayes:
+
+Accuracy: 0.86
+
+Recall: 0.94
+
+F1-score: 0.92
+
+AUC-ROC: 0.67
+
+KNN (k=12):
+
+Accuracy: 0.88
+
+Recall: 0.97
+
+F1-score: 0.93
+
+AUC-ROC: 0.67
+
+🔹 Regression (Progression-Free Months)
+
+Decision Tree DT-1 (Fully Grown):
+
+MAE: 16.74
+
+MSE: 415.31
+
+R²: 0.25
+
+Decision Tree DT-2 (Pruned to Depth 4):
+
+MAE: 16.98
+
+MSE: 424.68
+
+R²: 0.24
+
+These results demonstrate strong predictive ability for classification and reasonable interpretability and stability for regression.
+
+## 📘 Repository Structure
+├── colab_notebooks/     # All ML notebooks (cleaning, modelling, evaluation)
+├── Data/                # Dataset used for modelling
+├── report/              # Full machine learning coursework report
+└── README.md
+
+**📓 Notebooks Overview**
+## 📁 Notebook 1 — Data Cleaning & EDA
+
+Dropped irrelevant columns (Patient ID, Profession)
+
+Encoded categorical variables (ER/PR status, staging)
+
+Imputed missing values and handled outliers
+
+Explored class imbalance and visualised key trends
+
+## 📁 Notebook 2 — Classification & Regression Models
+
+Split and stratified data for fair evaluation
+
+Built Logistic Regression, Naïve Bayes, KNN
+
+Evaluated using Recall, F1-score, AUC-ROC
+
+Applied GridSearchCV for improved performance
+
+Built regression models to predict survival months
+
+## 📁 Notebook 3 — Ensemble Learning & Final Insights
+
+Combined models using soft-voting ensemble
+
+Visualised Decision Tree regressors
+
+Identified which features influence predictions most
+
+Summarised clinical and ethical considerations
+
+## 🌍 Real-World Impact
+
+Machine learning offers powerful advantages in breast cancer care:
+
+🔍 Early identification of high-risk patients
+
+🧑‍⚕️ Better treatment planning through prediction insights
+
+📊 Support for oncologists with objective, data-driven evidence
+
+❤️ Helping move toward precision medicine
+
+This project demonstrates how ML models — when used responsibly — can assist healthcare professionals rather than replace them.
+
+## 📫 Connect With Me
+
+I share my cloud, ML, and DevOps journey across platforms. Feel free to connect!
+
+[LinkedIn](https://www.linkedin.com/in/hamzahassan21/)
+[Youtube](https://www.youtube.com/channel/UC51JEAEBV8WXwf2ZLROvUJw)
