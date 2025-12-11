@@ -108,8 +108,7 @@ These results demonstrate strong predictive ability for classification and reaso
 This project demonstrates how ML models — when used responsibly — can assist healthcare professionals rather than replace them.
 
 ## Author
-## Hamza Hassan
-Final-Year Computer Science Student
+Hamza Hassan - Final-Year Computer Science Student
 Cloud & DevOps Enthusiast
 
 ## 📫 Connect with Me
