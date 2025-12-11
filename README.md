@@ -111,7 +111,6 @@ This project demonstrates how ML models — when used responsibly — can assist
 ## Hamza Hassan
 Final-Year Computer Science Student
 Cloud & DevOps Enthusiast
-Focused on Serverless and Edge Architectures
 
 ## 📫 Connect with Me
 [LinkedIn](https://www.linkedin.com/in/hamzahassan21/)
