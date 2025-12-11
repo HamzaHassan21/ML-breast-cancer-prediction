@@ -63,51 +63,51 @@ These results demonstrate strong predictive ability for classification and reaso
 
 ## Notebook 1 — Data Cleaning & EDA
 
-Dropped irrelevant columns (Patient ID, Profession)
++ Dropped irrelevant columns (Patient ID, Profession)
 
-Encoded categorical variables (ER/PR status, staging)
++ Encoded categorical variables (ER/PR status, staging)
 
-Imputed missing values and handled outliers
++ Imputed missing values and handled outliers
 
-Explored class imbalance and visualised key trends
++ Explored class imbalance and visualised key trends
 
 ## Notebook 2 — Classification & Regression Models
 
-Split and stratified data for fair evaluation
++ Split and stratified data for fair evaluation
 
-Built Logistic Regression, Naïve Bayes, KNN
++ Built Logistic Regression, Naïve Bayes, KNN
 
-Evaluated using Recall, F1-score, AUC-ROC
++ Evaluated using Recall, F1-score, AUC-ROC
 
-Applied GridSearchCV for improved performance
++ Applied GridSearchCV for improved performance
 
-Built regression models to predict survival months
++ Built regression models to predict survival months
 
 ## Notebook 3 — Ensemble Learning & Final Insights
 
-Combined models using soft-voting ensemble
++ Combined models using soft-voting ensemble
 
-Visualised Decision Tree regressors
++ Visualised Decision Tree regressors
 
-Identified which features influence predictions most
++ Identified which features influence predictions most
 
-Summarised clinical and ethical considerations
++ Summarised clinical and ethical considerations
 
 ## Real-World Impact
 
-Machine learning offers powerful advantages in breast cancer care:
++ Machine learning offers powerful advantages in breast cancer care:
 
-  Early identification of high-risk patients
++ Early identification of high-risk patients
 
-  Better treatment planning through prediction insights
++ Better treatment planning through prediction insights
 
-  Support for oncologists with objective, data-driven evidence
++ Support for oncologists with objective, data-driven evidence
 
-  Helping move toward precision medicine
++ Helping move toward precision medicine
 
 This project demonstrates how ML models — when used responsibly — can assist healthcare professionals rather than replace them.
 
-## Connect With Me
+## 📫 Connect With Me
 
 I share my cloud, ML, and DevOps journey across platforms. Feel free to connect!
 
