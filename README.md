@@ -21,7 +21,15 @@ Logistic Regression · KNN · Naïve Bayes · Decision Trees · SMOTE
 ## Key Achievements
 
 Below are the real performance results achieved by the models, extracted from the analysis report:
-(Logistic Regression was the best-performing classifier overall.)
+
+Logistic Regression was selected as the primary classifier due to its simplicity and interpretability, while an ensemble model was also evaluated and achieved higher AUC performance.
+
+## Ensemble Model Performance
+![Ensemble ROC Curve](AUC-ROC/ensemble_auc_roc.png)
+
+A soft-voting ensemble (Logistic Regression + Naïve Bayes) achieved an AUC of 0.90,
+indicating strong class separability. Despite this, Logistic Regression was retained
+as the main model due to its transparency and clinical interpretability.
 
  ## Classification (Survival Status)
 
