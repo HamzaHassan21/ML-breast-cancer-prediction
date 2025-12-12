@@ -65,6 +65,8 @@ These results demonstrate strong predictive ability for classification and reaso
 
 ├── report/              # Full machine learning coursework report
 
+├── AUC-ROC/              # Ensemble AUC-ROC Graph (Logistic Regression + Naïve Bayes)
+
 └── README.md
 
 ## Notebooks Overview
