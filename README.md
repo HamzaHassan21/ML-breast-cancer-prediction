@@ -8,7 +8,7 @@ This project applies machine learning to predict two critical outcomes for breas
 
 By analysing real clinical features and applying ML techniques, this project demonstrates how data-driven models can support more accurate healthcare decisions.
 
-**Project Highlights**
+# Project Highlights
  ## Objective
 
 Build predictive models that use clinical attributes (e.g., stage, tumour characteristics, hormone status) to forecast patient outcomes.
