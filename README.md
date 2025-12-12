@@ -1,4 +1,4 @@
-## Breast Cancer Outcome Prediction Using Machine Learning
+# Breast Cancer Outcome Prediction Using Machine Learning
 
 This project applies machine learning to predict two critical outcomes for breast cancer patients:
 
