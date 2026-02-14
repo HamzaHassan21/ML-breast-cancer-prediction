@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Python package build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Distribution / packaging
+*.egg
+*.whl
+
+# Cache and logs
+*.log
+.cache/
+*.tmp
+
+# Test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.nox/
+.pytest_cache/
+
+# Data files (ignore if large or regenerated — track smaller cleaned data if needed)
+data/
+**/data/*
+*.csv
+*.xlsx
+*.json
+
+# Model artifacts (avoid committing big binary models)
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.model
+
+# IDE & editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment config (if you have one)
+.env
